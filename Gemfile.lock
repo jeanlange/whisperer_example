@@ -1,0 +1,47 @@
+PATH
+  remote: ../whisperer
+  specs:
+    whisperer (0.0.1)
+      activesupport
+      factory_girl (~> 4.3.0)
+      multi_json
+      vcr (~> 2.8.0)
+      virtus (~> 1.0.1)
+
+GEM
+  specs:
+    activesupport (4.0.3)
+      i18n (~> 0.6, >= 0.6.4)
+      minitest (~> 4.2)
+      multi_json (~> 1.3)
+      thread_safe (~> 0.1)
+      tzinfo (~> 0.3.37)
+    atomic (1.1.14)
+    axiom-types (0.0.5)
+      descendants_tracker (~> 0.0.1)
+      ice_nine (~> 0.9)
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.3)
+    equalizer (0.0.9)
+    factory_girl (4.3.0)
+      activesupport (>= 3.0.0)
+    i18n (0.6.9)
+    ice_nine (0.11.0)
+    minitest (4.7.5)
+    multi_json (1.8.4)
+    thread_safe (0.1.3)
+      atomic
+    tzinfo (0.3.38)
+    vcr (2.8.0)
+    virtus (1.0.1)
+      axiom-types (~> 0.0.5)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0.1)
+      equalizer (~> 0.0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  whisperer!
