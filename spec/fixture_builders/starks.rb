@@ -1,4 +1,4 @@
-Whisperer.define(:starks) do
+Whisperer.define('starks') do
   request do
     uri    'http://example.com/users'
     method :get
