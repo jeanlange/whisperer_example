@@ -1,1 +1,1 @@
-generate_to: 'spec/fixtures'
+generate_to: 'spec/cassettes'
