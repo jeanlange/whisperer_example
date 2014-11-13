@@ -1,6 +1,6 @@
 Whisperer.define(:john_snow) do
   request do
-    uri    'http://example.com/john_stark'
+    uri    'http://example.com/john_snow'
 
     headers do
       accept '*/*'
