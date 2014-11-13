@@ -18,3 +18,4 @@ Then you can get into `spec/cassettes` to see generated cassettes.
 #### [Cassette builder inheriting another cassette builder](/spec/cassette_builders/inheritance/arya_inherits_robb_stark.rb)
 #### [Cassette using multiple factories](/spec/cassette_builders/starks.rb)
 #### [Cassette being saved in the sub directory](/spec/cassette_builders/robb_stark_with_subpath.rb)
+#### [Cassette builder bilding the factory on its own](/spec/cassette_builders/john_snow_with_raw_data.rb)
