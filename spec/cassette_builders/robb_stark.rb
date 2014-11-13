@@ -1,6 +1,6 @@
 Whisperer.define(:robb_stark) do
   request do
-    uri    'http://example.com/users/1'
+    uri    'http://example.com/robb_stark'
     method :get
 
     headers do
@@ -21,9 +21,7 @@ Whisperer.define(:robb_stark) do
     end
 
     body do
-      encoding    'UTF-8'
-      factory     'robb_stark'
-      serializer  :json
+      factory 'robb_stark'
     end
   end
 end

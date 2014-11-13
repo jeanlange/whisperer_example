@@ -1,6 +1,6 @@
 Whisperer.define('starks') do
   request do
-    uri    'http://example.com/users'
+    uri    'http://example.com/starks'
     method :get
 
     headers do
@@ -9,19 +9,7 @@ Whisperer.define('starks') do
   end
 
   response do
-    status do
-      code    200
-      message 'OK'
-    end
-
-    headers do
-      content_type           'application/json;charset=utf-8'
-      content_length         57
-      x_content_type_options 'nosniff'
-    end
-
     body do
-      encoding   'UTF-8'
       factories  ['robb_stark', 'ned_stark']
       serializer :json_multiple
     end
