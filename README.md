@@ -1,4 +1,4 @@
-This repository is an example how [Whisperer gem](https://github.com/dnesteryuk/whisperer) can be used for generating Vcr cassettes. 
+This repository contains examples with usage of [Whisperer gem](https://github.com/dnesteryuk/whisperer). 
 
 To generate cassettes from all cassette builders you have to launch:
 
@@ -6,7 +6,7 @@ To generate cassettes from all cassette builders you have to launch:
   rake whisperer:fixtures:generate_all
 ```
 
-or you can launch a generator for a specific fixture:
+or you can launch a generator for a specific cassette:
 
 ```shell
   rake whisperer:fixtures:generate[robb_stark]
