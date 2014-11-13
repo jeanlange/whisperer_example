@@ -21,8 +21,9 @@ Whisperer.define('starks') do
     end
 
     body do
-      encoding 'UTF-8'
-      factories ['robb_stark', 'ned_stark'], :json_multiple
+      encoding   'UTF-8'
+      factories  ['robb_stark', 'ned_stark']
+      serializer :json_multiple
     end
   end
 end

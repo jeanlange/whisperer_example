@@ -21,8 +21,9 @@ Whisperer.define(:robb_stark) do
     end
 
     body do
-      encoding 'UTF-8'
-      factory  'robb_stark', :json
+      encoding    'UTF-8'
+      factory     'robb_stark'
+      serializer  :json
     end
   end
 end
