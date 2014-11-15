@@ -19,4 +19,4 @@ Then you can get into `spec/cassettes` to see generated cassettes.
 - [Cassette builder using multiple factories](/spec/cassette_builders/starks.rb)
 - [Cassette being saved in the sub directory](/spec/cassette_builders/robb_stark_with_subpath.rb)
 - [Cassette builder bilding the factory on its own](/spec/cassette_builders/john_snow_with_raw_data.rb)
-- [Cassette builder using the custom serializer for the response body](/spec/cassette_builders/robb_sark_in_custom_format.rb)
+- [Cassette builder using the custom serializer for the response body](/spec/cassette_builders/robb_stark_in_custom_format.rb)
