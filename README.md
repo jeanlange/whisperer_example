@@ -3,13 +3,13 @@ This repository contains examples with usage of [Whisperer gem](https://github.c
 To generate cassettes from all cassette builders you have to launch:
 
 ```shell
-  rake whisperer:fixtures:generate_all
+  rake whisperer:cassettes:generate_all
 ```
 
 or you can launch a generator for a specific cassette:
 
 ```shell
-  rake whisperer:fixtures:generate[robb_stark]
+  rake whisperer:cassettes:generate[robb_stark]
 ```
 
 Then you can get into `spec/cassettes` to see generated cassettes.
