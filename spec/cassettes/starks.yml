@@ -2,9 +2,9 @@
 http_interactions:
 - request:
     method: get
-    uri: http://example.com/starks
+    uri: http://example.com/ned
     body:
-      encoding: US-ASCII
+      encoding: UTF-8
       string: ''
     headers:
       Accept:
@@ -15,10 +15,10 @@ http_interactions:
       message: OK
     headers:
       Content-Length:
-      - '118'
+      - 57
     body:
       encoding: UTF-8
-      string: '[{"first_name":"Robb","last_name":"Stark","group":"member"},{"first_name":"Ned","last_name":"Stark","group":"member"}]'
+      string: '{"first_name":"Ned","last_name":"Stark","group":"member"}'
     http_version: 
-  recorded_at: Sat, 15 Nov 2014 13:40:40 GMT
+  recorded_at: Thu, 13 Oct 2016 15:29:52 GMT
 recorded_with: VCR 2.9.3
